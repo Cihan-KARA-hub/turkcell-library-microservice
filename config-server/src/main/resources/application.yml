@@ -12,4 +12,4 @@ spring:
             - configurations/{application}
 
 server:
-  port: 8787
+  port: 8989
