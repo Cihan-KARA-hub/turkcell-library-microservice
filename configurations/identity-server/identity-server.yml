@@ -1,0 +1,8 @@
+server:
+  port: 8090
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+  servlet:
+    context-path: /identity

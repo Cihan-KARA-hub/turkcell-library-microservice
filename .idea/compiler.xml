@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="gateway-server" />
+        <module name="identity-server" />
         <module name="discovery-server" />
         <module name="book-service" />
-        <module name="penalty-service" />
         <module name="loan-service" />
+        <module name="gateway-server" />
+        <module name="penalty-service" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="config-server" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
+      <module name="identity-server" options="-parameters" />
       <module name="loan-service" options="-parameters" />
       <module name="penalty-service" options="-parameters" />
     </option>
